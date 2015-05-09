@@ -27,3 +27,4 @@ par(bg ="white")
 #make line graph
 plot(household.subset$timedate, household.subset$Global_active_power, type="l", xlab="", ylab="Global Active Power (kilowatts)")
 dev.off()
+rm("household.subset")

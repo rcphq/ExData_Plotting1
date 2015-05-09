@@ -45,3 +45,4 @@ plot(household.subset$timedate, household.subset$Global_reactive_power,
      type="l", xlab="datetime", ylab="Global_reactive_power")
 dev.off()
 rm("legend.text")
+rm("household.subset")
